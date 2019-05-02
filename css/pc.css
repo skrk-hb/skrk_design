@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.logo_area {
+  font-size: 1.5em;
+}
+
+.logo_area {
+  font-size: 1.5em;
+}
+
+/* =====================
+  profile_block
+===================== */
+#profile_block img {
+  max-width: 50%;
+  position: absolute;
+  top: auto;
+  right: 0;
+  z-index: -1;
+}
+
+#profile_block .profile_text {
+  width: 60%
+}
+
+/* =====================
+  work_block
+===================== */
+#work_block {
+  clear: both;
+}
+
+#work_block .work_area .work_card {
+  min-width: 230px;
+}
+
+/* =====================
+  blog_block
+===================== */
+#blog_block .blog_area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#blog_block .blog_area .blog_card {
+  max-width: 230px;
+}
+
+#contact_block .contact_card {
+  padding: 20px 1% 50px;
+}
+
+@media screen and (min-width: 1023px) {
+  svg {
+    max-width: 350px;
+  }
+
+  .logo_area {
+    font-size: 1.5em;
+  }
+
+  /* =====================
+    profile_block
+  ===================== */
+  #profile_block .profile_text {
+    max-width: 560px;
+  }
+
+  /* =====================
+    work_block
+  ===================== */
+  #work_block .work_area .work_card {
+    min-width: 300px;
+  }
+
+  /* =====================
+    pricelist_block
+  ===================== */
+  #pricelist_block .sp_pricelist {
+    display: none;
+  }
+
+  #pricelist_block .pc_pricelist {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #pricelist_block .pc_pricelist .pc_pricelist_block {
+    width: 50%;
+  }
+
+  /* =====================
+    blog_block
+  ===================== */
+  #blog_block .blog_area .blog_card {
+    max-width: 300px;
+  }
+}
